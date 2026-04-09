@@ -33,7 +33,7 @@ jsonDefinitionGenerator.forBlock['field_image'] = function (
     width: block.getFieldValue('WIDTH'),
     height: block.getFieldValue('HEIGHT'),
     alt: block.getFieldValue('ALT'),
-    flipRtl: block.getFieldValue('FLIP_RTL'),
+    flipRtl: block.getFieldValue('FLIP_RTL') === 'TRUE',
   };
   return JSON.stringify(code);
 };
@@ -46,7 +46,7 @@ javascriptDefinitionGenerator.forBlock['field_image'] = function (
   const width = block.getFieldValue('WIDTH');
   const height = block.getFieldValue('HEIGHT');
   const alt = generator.quote_(block.getFieldValue('ALT'));
-  const flipRtl = generator.quote_(block.getFieldValue('FLIP_RTL'));
+  const flipRtl = block.getFieldValue('FLIP_RTL') === 'TRUE';
 
   const code = `.appendField(new Blockly.FieldImage(${src}, ${width}, ${height}, { alt: ${alt}, flipRtl: ${flipRtl}}))`;
   return code;
