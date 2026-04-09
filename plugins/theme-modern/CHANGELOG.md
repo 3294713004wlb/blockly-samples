@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.5](https://github.com/RaspberryPiFoundation/blockly-samples/compare/@blockly/theme-modern@7.0.4...@blockly/theme-modern@7.0.5) (2026-04-09)
+
+**Note:** Version bump only for package @blockly/theme-modern
+
+
+
+
+
 ## [7.0.4](https://github.com/RaspberryPiFoundation/blockly-samples/compare/@blockly/theme-modern@7.0.3...@blockly/theme-modern@7.0.4) (2026-01-05)
 
 

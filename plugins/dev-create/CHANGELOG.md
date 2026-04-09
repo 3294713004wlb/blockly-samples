@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.5](https://github.com/RaspberryPiFoundation/blockly-samples/compare/@blockly/create-package@3.0.4...@blockly/create-package@3.0.5) (2026-04-09)
+
+
+### Bug Fixes
+
+* remove eslint dependency from dev-scripts ([#2682](https://github.com/RaspberryPiFoundation/blockly-samples/issues/2682)) ([dc6b746](https://github.com/RaspberryPiFoundation/blockly-samples/commit/dc6b7467f8960d19d7d21e6fe7b2fd14cbfff51c))
+
+
+
 ## [3.0.4](https://github.com/RaspberryPiFoundation/blockly-samples/compare/@blockly/create-package@3.0.3...@blockly/create-package@3.0.4) (2026-01-05)
 
 

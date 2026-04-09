@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.1.8](https://github.com/RaspberryPiFoundation/blockly-samples/compare/@blockly/plugin-workspace-search@10.1.7...@blockly/plugin-workspace-search@10.1.8) (2026-04-09)
+
+**Note:** Version bump only for package @blockly/plugin-workspace-search
+
+
+
+
+
 ## [10.1.7](https://github.com/RaspberryPiFoundation/blockly-samples/compare/@blockly/plugin-workspace-search@10.1.6...@blockly/plugin-workspace-search@10.1.7) (2026-01-15)
 
 **Note:** Version bump only for package @blockly/plugin-workspace-search
