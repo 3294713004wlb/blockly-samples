@@ -30,7 +30,7 @@ jsonDefinitionGenerator.forBlock['field_checkbox'] = function (
   const code = {
     type: 'field_checkbox',
     name: block.getFieldValue('FIELDNAME'),
-    checked: block.getFieldValue('CHECKED'),
+    checked: block.getFieldValue('CHECKED') === 'TRUE',
   };
   return JSON.stringify(code);
 };
@@ -40,7 +40,7 @@ javascriptDefinitionGenerator.forBlock['field_checkbox'] = function (
   generator: JavascriptDefinitionGenerator,
 ): string {
   const name = generator.quote_(block.getFieldValue('FIELDNAME'));
-  const checked = generator.quote_(block.getFieldValue('CHECKED'));
+  const checked = block.getFieldValue('CHECKED') === 'TRUE';
   return `.appendField(new Blockly.FieldCheckbox(${checked}), ${name})`;
 };
 
