@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.12](https://github.com/RaspberryPiFoundation/blockly-samples/compare/@blockly/block-shareable-procedures@6.0.11...@blockly/block-shareable-procedures@6.0.12) (2026-04-23)
+
+
+### Bug Fixes
+
+* Fix creation of variables in the main workspace when opening flyout ([#2686](https://github.com/RaspberryPiFoundation/blockly-samples/issues/2686)) ([d7dba88](https://github.com/RaspberryPiFoundation/blockly-samples/commit/d7dba8803ca2cfc66cbdfb72a060a7f101f40c8a))
+
+
+
 ## [6.0.11](https://github.com/RaspberryPiFoundation/blockly-samples/compare/@blockly/block-shareable-procedures@6.0.10...@blockly/block-shareable-procedures@6.0.11) (2026-04-09)
 
 **Note:** Version bump only for package @blockly/block-shareable-procedures
